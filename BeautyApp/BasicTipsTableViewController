@@ -1,0 +1,42 @@
+//
+//  basicTipsViewController.swift
+//  BeautyApp
+//
+//  Created by  Sayed on 04-03-16.
+//  Copyright © 2016 Jasper Stokman. All rights reserved.
+//
+
+import UIKit
+
+
+class BasicTipsTableViewController: UITableViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    var tipNames = ["Go for a Brisk walk", "Protect Your Skin", "Be Healthy", "Have a beautysleep","Keep Skincare Simple", "Handle your stress Head-on", "Strengthen your hair with protein", "Groom your eyebrows", "Wear Mineral Make-up", "Exfoliate", "Lifestyle","Good Posture","Confidence"]
+    
+    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return tipNames.count
+    }
+    
+    
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+        let cellIdentifier = "Cell"
+        let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath)
+        
+        // Configure the cell...
+        cell.textLabel?.text = tipNames[indexPath.row]
+        cell.imageView?.image = UIImage(named: "tips.jpg")
+        
+        return cell
+    }
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        
+    }
+
+}

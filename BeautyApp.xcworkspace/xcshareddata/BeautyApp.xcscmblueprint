@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3324119B5BFD0FC1D6C0A0ECD96823808450D5DE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "816F0AA44833C27C13E18CB92352C102E7CB18E9" : 0,
+    "EECC565A5ADDBFFA6F6D3C44AEC9D44C4B35B7DF" : 0,
+    "3324119B5BFD0FC1D6C0A0ECD96823808450D5DE" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4E7832EF-DACB-44C2-BC3B-E8285F961C17",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "816F0AA44833C27C13E18CB92352C102E7CB18E9" : "Beauty\/",
+    "EECC565A5ADDBFFA6F6D3C44AEC9D44C4B35B7DF" : "..\/Fashion",
+    "3324119B5BFD0FC1D6C0A0ECD96823808450D5DE" : "BeautyApp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BeautyApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BeautyApp.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ClaireJakoby\/BeautyApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3324119B5BFD0FC1D6C0A0ECD96823808450D5DE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AppAcademyNL\/BeautyApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "816F0AA44833C27C13E18CB92352C102E7CB18E9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ClaireJakoby\/Fashion.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EECC565A5ADDBFFA6F6D3C44AEC9D44C4B35B7DF"
+    }
+  ]
+}
